@@ -1,0 +1,67 @@
+uptime      systemctl poweroff (or) poweroff
+            systemctl reboot (or)reboot
+
+3 types of users:
+1. Owner
+2. Groups
+3. Others/file owner/people who use system
+
+To add user:
+------------
+1. cat /etc/passwd   ---->To read data of users that stored here
+2. sudo -i
+3. adduser <req name>
+4. password
+5. some questions
+
+To see passwords:
+-----------------
+1. cat /etc/shadow
+
+To delete user:
+---------------
+1. cat /etc/passwd   ---->To read data of users that stored here
+2. sudo -i
+3. userdel <name>
+
+pwd
+
+whoami   - to know user name
+date     - Tue May 4 03:29:26 PM EST 2024
+
+exit 
+cd <req folder name>
+
+mkdir <folder name>
+mkdir <fname1 <space> fname2 fname3      - to craeate multiple directories at a time
+Ex: mkdir hacking hackers security
+ls
+
+sh 
+sudo -i   --->To take root admin permission
+
+sudo su
+
+sudo sh <required> .run
+
+sudo ifconfig
+
+rm <directory name>
+
+rm -rf <directory name/>
+
+1.cd ../ 2. enter
+
+1. cd ../../  2. enetr   -----> It'll go back to 2 directories
+
+1. cd 2. enter -----> Then it will go to home
+
+touch <filename>
+
+nano <filename> 
+ctrl+x ---->To save
+
+cat <filename>  - to read content
+
+cp <filename> <path to where i have to copy the file>
+
